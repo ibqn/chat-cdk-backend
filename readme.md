@@ -18,7 +18,7 @@ The `lib/authStack.ts` file creates the following services
 
 ## S3
 
-The `lib/fileStorage.ts` file creates an Amazon S3 bucket and comes configured with managed polcies that are in line with what the [Amplify Storage](https://docs.amplify.aws/cli/storage/import/#configuring-iam-role-to-use-amplify-recommended-policies) library uses as acceptable defaults.
+The `lib/fileStorage.ts` file creates an Amazon S3 bucket and comes configured with managed polices that are in line with what the [Amplify Storage](https://docs.amplify.aws/cli/storage/import/#configuring-iam-role-to-use-amplify-recommended-policies) library uses as acceptable defaults.
 
 ## AppSync API
 
@@ -32,7 +32,7 @@ Note that this stack comes preconfigured with the following:
 - IAM authorization
 - DynamoDB as a datasource
 
-In addition, this package makes use of the `@aws-cdk/aws-appsync-alpha` [npm package](https://www.npmjs.com/package/@aws-cdk/aws-appsync-alpha) for easiliy creating the request and response mapping templates.
+In addition, this package makes use of the `@aws-cdk/aws-appsync-alpha` [npm package](https://www.npmjs.com/package/@aws-cdk/aws-appsync-alpha) for easily creating the request and response mapping templates.
 
 ## DynamoDB API
 

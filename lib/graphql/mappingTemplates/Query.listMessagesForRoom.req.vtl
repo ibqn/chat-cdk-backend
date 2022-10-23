@@ -7,7 +7,7 @@
       "expressionValues" : {
         ":roomId" : $util.dynamodb.toDynamoDBJson($ctx.args.roomId)
       }
-      
+
     }
     #if( !$util.isNull($ctx.args.sortDirection)
           && $ctx.args.sortDirection == "DESC" )
